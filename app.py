@@ -21,7 +21,7 @@ import pickle
 #prediction = pickled_model.predict([[[2.66288952e-01, 5.82982813e-08, 2.33161723e-01]],])
 
 app = Flask(__name__)
-@app.route("/", methods=['post'])
+@app.route("/")
 def hello():
     return "heysss"
 
