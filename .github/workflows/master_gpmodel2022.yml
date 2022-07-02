@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'GPMODEL2022'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0449A77BA6354674903942CFE7804B42 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_08C8D34BD3ED49C08E89ADF467F2C632 }}
