@@ -23,7 +23,10 @@ import pickle
 app = Flask(__name__)
 @app.route("/")
 def hello():
-    return "heysss"
+    return "hey"
+@app.route("/ff")
+def hello():
+    return "heysss"    
 
 @app.route('/Mypredict', methods=['POST'])
 def Mypredict():
