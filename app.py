@@ -44,6 +44,6 @@ def Mypredict():
     else:
         return ('No model here to use')    
 
-if __name__ == '__main__':
-    app.run(threaded=False)
-    #app.run(debug=True)    
+# if __name__ == '__main__':
+#     app.run(threaded=False)
+#     #app.run(debug=True)    
